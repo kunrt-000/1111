@@ -1,4 +1,7 @@
 <script setup>
+import Hero from '@/components/Hero.vue'
+import Testimonials from '@/components/Testimonials.vue'
+
 definePageMeta({
   layout: 'default'
 })
@@ -8,6 +11,33 @@ useHead({
     { name: 'description', content: '万搏娱乐提供体育竞猜、真人娱乐、电子游戏、彩票投注等多元化博彩服务，支持极速秒提与 24×7 中文客服。立即注册尊享首存加赠与免费旋转。' }
   ]
 })
+
+const hero = {
+  title: '万搏娱乐 WGame — 全球玩家信赖的一站式在线娱乐平台',
+  description: '立即注册，尊享 100 % 首存加赠 + 150 次免费旋转，极速秒提、24 × 7 中文客服！',
+  image: '/images/hero.jpg',
+  imageAlt: 'WGame hero banner',
+  buttons: [
+    { label: '注册拿奖金', url: '/register' },
+    { label: '试玩体验', url: '/demo' }
+  ]
+}
+
+const testimonials = [
+  {
+    quote: 'WGame 的返水最高，提取也快，我每天都来玩！',
+    author: { name: '张伟', title: '资深玩家', avatar: '/images/person-1.jpg' }
+  },
+  {
+    quote: '客服响应迅速，游戏体验一流。',
+    author: { name: '李娜', title: '忠实用户', avatar: '/images/person-2.jpg' }
+  },
+  {
+    quote: '在这里投注体育赛事感觉非常安全可靠。',
+    author: { name: 'Chris', title: 'Sports Bettor', avatar: '/images/person-3.jpg' }
+  }
+]
+
 const socials = [
   { label: 'X', url: 'https://x.com/fmmfm_kunrt' },
   { label: 'LinkedIn', url: 'https://www.linkedin.com/in/wgame' },
@@ -20,6 +50,14 @@ const socials = [
 
 <template>
   <Container>
+    <Hero
+      :title="hero.title"
+      :description="hero.description"
+      :image="hero.image"
+      :imageAlt="hero.imageAlt"
+      :buttons="hero.buttons"
+    />
+
     <section class="mt-10 mb-8">
       <h1 class="text-4xl font-bold text-zinc-800 sm:text-5xl">
         万搏娱乐 WGame — 全球玩家信赖的一站式在线娱乐平台
@@ -54,5 +92,8 @@ const socials = [
         {{ s.label }}
       </a>
     </div>
+
+    <Testimonials :title="'玩家好评'" :items="testimonials" />
+
   </Container>
 </template>
