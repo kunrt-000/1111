@@ -24,8 +24,10 @@ useHead({
       <li>我是否花费超过预算？</li>
       <li>我是否隐瞒投注行为？</li>
       <li>我是否因赌博影响工作、学习或人际关系？</li>
-      <li>若答“是”超过两项，请考虑使用下方工具或寻求专业帮助。</li>
     </ul>
+    <p class="mt-2 text-zinc-600">
+      若答“是”超过两项，请考虑使用下方工具或寻求专业帮助。
+    </p>
 
     <h2 class="mt-6 text-2xl font-bold text-zinc-800">3. 账户控制工具</h2>
     <ol class="mt-2 ml-6 list-decimal text-zinc-600">
@@ -62,10 +64,10 @@ useHead({
     <p class="mt-2 text-zinc-600">如果您或亲友出现以上迹象，请立即寻求帮助。</p>
 
     <h2 class="mt-6 text-2xl font-bold text-zinc-800">7. 亲友关怀与第三方排除</h2>
-    <p class="mt-2 text-zinc-600">亲友可通过 <b>wg@fmmfm.com</b> 提交“亲友排除”申请，平台将在核实身份与关系后，限制目标用户账户。</p>
+    <p class="mt-2 text-zinc-600">亲友可通过 <b>support@wgame.bet</b> 提交“亲友排除”申请，平台将在核实身份与关系后，限制目标用户账户。</p>
 
     <h2 class="mt-6 text-2xl font-bold text-zinc-800">8. 客户支持</h2>
-    <p class="mt-2 text-zinc-600">24/7 在线客服与电邮 <b>wg@fmmfm.com</b> 始终开放。如需紧急帮助，我们将优先处理。</p>
+    <p class="mt-2 text-zinc-600">24/7 在线客服与电邮 <b>responsible@wgame.bet</b> 始终开放。如需紧急帮助，我们将优先处理。</p>
 
     <h2 class="mt-6 text-2xl font-bold text-zinc-800">9. 政策审查与更新</h2>
     <p class="mt-2 mb-10 text-zinc-600">我们每半年审查一次责任博彩措施，并根据行业最佳实践与监管要求更新，最新版本将发布于本页面并通过公告通知用户。</p>
