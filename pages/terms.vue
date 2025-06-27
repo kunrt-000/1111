@@ -88,7 +88,7 @@ useHead({
 
     <h2 class="mt-6 text-2xl font-bold text-zinc-800">15. 投诉与纠纷解决</h2>
     <ul class="mt-2 ml-6 list-disc text-zinc-600">
-      <li>首先联系 <b>wg@fmmfm.com</b>；我们将在 72 小时内答复。</li>
+      <li>首先联系 <b>support@wgame.bet</b>；我们将在 72 小时内答复。</li>
       <li>若内部协商不成，可向牌照方或 eCOGRA（若适用）进行第三方调解。</li>
     </ul>
 
