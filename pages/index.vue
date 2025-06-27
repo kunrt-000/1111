@@ -58,6 +58,15 @@ const socials = [
       :buttons="hero.buttons"
     />
 
+    <section class="mt-10 mb-8">
+      <h1 class="text-4xl font-bold text-zinc-800 sm:text-5xl">
+        万搏娱乐 WGame — 全球玩家信赖的一站式在线娱乐平台
+      </h1>
+      <p class="mt-4 text-lg text-zinc-600">
+        立即注册，尊享 <strong>100 % 首存加赠 + 150 次免费旋转</strong>，极速秒提、24 × 7 中文客服！
+      </p>
+    </section>
+
     <section class="mb-8">
       <h2 class="text-3xl font-bold text-zinc-800">为什么选择 WGame？</h2>
       <ul class="mt-4 space-y-2 list-disc ml-6 text-zinc-600">
@@ -85,5 +94,6 @@ const socials = [
     </div>
 
     <Testimonials :title="'玩家好评'" :items="testimonials" />
+
   </Container>
 </template>
